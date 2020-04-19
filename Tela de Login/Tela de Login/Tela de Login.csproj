@@ -107,5 +107,8 @@
   <ItemGroup>
     <None Include="Resources\mudanca.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\il_570xN.689172695_lb79.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

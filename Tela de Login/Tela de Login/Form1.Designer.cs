@@ -38,12 +38,14 @@
             // 
             // btnEnter
             // 
+            this.btnEnter.BackColor = System.Drawing.Color.Transparent;
+            this.btnEnter.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEnter.Location = new System.Drawing.Point(114, 343);
             this.btnEnter.Name = "btnEnter";
             this.btnEnter.Size = new System.Drawing.Size(75, 23);
             this.btnEnter.TabIndex = 0;
             this.btnEnter.Text = "Enter";
-            this.btnEnter.UseVisualStyleBackColor = true;
+            this.btnEnter.UseVisualStyleBackColor = false;
             this.btnEnter.Click += new System.EventHandler(this.btnEnter_Click);
             // 
             // txtLogin
@@ -52,7 +54,6 @@
             this.txtLogin.Name = "txtLogin";
             this.txtLogin.Size = new System.Drawing.Size(133, 20);
             this.txtLogin.TabIndex = 1;
-            this.txtLogin.Text = "Digite seu Login";
             this.txtLogin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtPass
@@ -67,10 +68,10 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Malgun Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Monotype Corsiva", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(78, 120);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(155, 37);
+            this.label3.Size = new System.Drawing.Size(178, 45);
             this.label3.TabIndex = 5;
             this.label3.Text = "User Login";
             // 

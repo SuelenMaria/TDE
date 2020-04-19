@@ -113,6 +113,16 @@ namespace Tela_de_Login.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap il_570xN_689172695_lb79 {
+            get {
+                object obj = ResourceManager.GetObject("il_570xN.689172695_lb79", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap mudanca {
             get {
                 object obj = ResourceManager.GetObject("mudanca", resourceCulture);
